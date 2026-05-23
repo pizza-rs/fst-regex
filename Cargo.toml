@@ -13,7 +13,7 @@ license = "Unlicense/MIT"
 edition = "2018"
 
 [dependencies]
-fst-no-std = { git = "https://github.com/infinilabs/fst-no-std", branch = "main", features = ["alloc","utf8-ranges","levenshtein"]}
+fst-no-std = { git = "https://github.com/pizza-rs/fst-no-std", branch = "main", features = ["alloc","utf8-ranges","levenshtein"]}
 regex-syntax = "0.3"
 utf8-ranges = "1"
 hashbrown = { version = "0.14" }
